@@ -9,12 +9,12 @@ databases:
 services:
   - type: web
     plan: starter
+    region: singapore
     env: docker
     name: lightdash-server
-    region: singapore
     dockerContext: .
     dockerfilePath: dockerfile
-    envVars:
+    envVars: 
       - key: PGHOST
         fromDatabase:
           name: lightdash-database
