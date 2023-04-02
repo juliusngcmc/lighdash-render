@@ -3,7 +3,7 @@ previewsEnabled: false
 databases:
   - name: lightdash-database
     ipAllowList: []
-    plan: free
+    plan: starter
     region: singapore
 
 services:
