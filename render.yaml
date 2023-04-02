@@ -3,12 +3,12 @@ previewsEnabled: false
 databases:
   - name: lightdash-database
     ipAllowList: []
-    plan: starter
+    plan: free
     region: singapore
 
 services:
   - type: web
-    plan: starter
+    plan: free
     env: docker
     name: lightdash-server
     region: singapore
